@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7fb;color:#172033;font-family:'DM Sans',sans-serif}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+.display{font-family:'Manrope',sans-serif}
+.panel{background:#fff;border:1px solid #edf0f5;border-radius:18px;box-shadow:0 8px 28px rgba(30,40,70,.035)}
+.field{width:100%;border:1px solid #e6e9f0;border-radius:11px;padding:11px 13px;background:#fff;outline:none;color:#172033}
+.field:focus{border-color:#9189f1;box-shadow:0 0 0 3px rgba(113,101,232,.1)}
+.primary{background:#7165e8;color:#fff;border-radius:11px;padding:11px 16px;font-weight:700;transition:.2s}
+.primary:hover{background:#5d51d4;transform:translateY(-1px)}
+.ghost{border:1px solid #e8eaf1;border-radius:10px;padding:9px 12px;background:#fff;color:#4e5870}
+.ghost:hover{background:#f7f7fc}
+.navitem{display:flex;align-items:center;gap:12px;padding:11px 13px;border-radius:11px;color:#7b8498;font-weight:600;font-size:14px}
+.navitem.active{background:#f0efff;color:#6659dd}
+.progress{height:7px;border-radius:20px;background:#edf0f6;overflow:hidden}
+.progress>span{display:block;height:100%;border-radius:20px;background:#7165e8}
+::-webkit-scrollbar{width:7px}::-webkit-scrollbar-thumb{background:#dfe2ec;border-radius:10px}
